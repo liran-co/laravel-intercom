@@ -24,7 +24,7 @@ use Intercom;
 
 // ...
 
-Intercom::users()->getUsers();
+Intercom::users()->getUsers([]);
 ```
 
 That's it! Refer to [Intercom PHP](https://github.com/intercom/intercom-php) for usage information.
