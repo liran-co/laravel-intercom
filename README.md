@@ -15,7 +15,9 @@ composer require liran-co/laravel-intercom
 
 ## Usage
 
-Add the `INTERCOM_ACCESS_TOKEN` variable into your `.env` file.
+First, add the `INTERCOM_ACCESS_TOKEN` variable into your `.env` file.
+
+Next, add the `Intercom` facade to the top of your file:
 
 ``` php
 use Intercom;
@@ -26,10 +28,6 @@ Intercom::users()->getUsers();
 ```
 
 That's it! Refer to [Intercom PHP](https://github.com/intercom/intercom-php) for usage information.
-
-### Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
 ## License
 
