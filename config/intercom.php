@@ -1,7 +1,7 @@
 <?php
 
 return [
-	
+    
     /*
     |--------------------------------------------------------------------------
     | Access Token
@@ -12,5 +12,5 @@ return [
     */
     
     'access_token' => env('INTERCOM_ACCESS_TOKEN'),
-	
+    
 ];
