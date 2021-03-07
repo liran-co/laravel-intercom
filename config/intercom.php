@@ -1,7 +1,7 @@
 <?php
 
 return [
-    
+
     /*
     |--------------------------------------------------------------------------
     | Access Token
@@ -10,7 +10,7 @@ return [
     | Intercom access token.
     |
     */
-    
+
     'access_token' => env('INTERCOM_ACCESS_TOKEN'),
-    
+
 ];
