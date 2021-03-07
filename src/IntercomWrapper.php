@@ -16,7 +16,7 @@ class IntercomWrapper
         if (method_exists($this->intercom, $method)) {
             return call_user_func_array([$this->intercom, $method], $args);
         }
-        
+
         return $this->intercom->{$method};
     }
 }
