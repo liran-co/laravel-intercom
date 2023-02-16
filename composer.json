@@ -17,8 +17,10 @@
     ],
     "require": {
         "php": "^7.4|^8.0",
-        "illuminate/support": "^6.0|^7.0|^8.0|^9.0",
-        "intercom/intercom-php": "^4.4"
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0",
+        "intercom/intercom-php": "^4.4",
+        "symfony/http-client": "^6.2",
+        "nyholm/psr7": "^1.5"
     },
     "autoload": {
         "psr-4": {
@@ -36,5 +38,10 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
 }
